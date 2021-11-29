@@ -36,17 +36,17 @@ syntax match wdlInterpolatedString "\v\w+" contained containedin=wdlInterpolatio
 " Comments
 syntax match wdlComment "\v#.*$"
 
-highlight link wdlCommandParameter Comment
-highlight link wdlKeyword Keyword
-highlight link wdlCommandKeyword Keyword
-highlight link wdlCommand Punctuation
-highlight link wdlTaskName Identifier
+highlight default link wdlCommandParameter Comment
+highlight default link wdlKeyword Keyword
+highlight default link wdlCommandKeyword Keyword
+highlight default link wdlCommand Punctuation
+highlight default link wdlTaskName Identifier
 
-highlight link wdlCommandParameterName Identifier
-highlight link wdlIdentifier Identifier
-highlight link wdlType Type
-highlight link wdlString String
-highlight link wdlImport Include
-highlight link wdlInterpolationWrapper Include
-highlight link wdlInterpolatedString Include
-highlight link wdlComment Comment
+highlight default link wdlCommandParameterName Identifier
+highlight default link wdlIdentifier Identifier
+highlight default link wdlType Type
+highlight default link wdlString String
+highlight default link wdlImport Include
+highlight default link wdlInterpolationWrapper Include
+highlight default link wdlInterpolatedString Include
+highlight default link wdlComment Comment
